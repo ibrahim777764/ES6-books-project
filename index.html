@@ -1,80 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./modules/index.css" />
-    <title>Awesome Book app</title>
-  </head>
-
-  <body>
-    <header>
-      <nav id="navbar">
-        <a href="" tabindex="1">Awesome Books</a>
-        <ul>
-          <li>
-            <a id="show-list-button" tabindex="1">List</a>
-          </li>
-          <li>
-            <div class="vl"></div>
-          </li>
-          <li>
-            <a id="add-new-button" tabindex="1">Add new</a>
-          </li>
-          <li>
-            <div class="vl" tabindex="1"></div>
-          </li>
-          <li>
-            <a id="contact-button" tabindex="1">Contact</a>
-          </li>
-        </ul>
-      </nav>
-      <div id="current-date"></div>
-    </header>
-    <main class="main-container">
-      <section id="list">
-        <h1>All Awesome Books</h1>
-        <div class="container">
-          <div class="book-shelf"></div>
-        </div>
-      </section>
-      <section id="add">
-        <div class="form-container">
-          <h2>Awesome Books</h2>
-          <form class="book-input">
-            <input type="text" placeholder="Title" class="input-title" />
-            <input type="text" placeholder="Author" class="input-author" />
-            <button type="submit" class="add-button">Add</button>
-          </form>
-        </div>
-      </section>
-      <section id="contact">
-        <div>
-          <h2>contact</h2>
-          <br /><br />
-          <p>
-            Do have any questions or you just want to say "Hello"? <br />You can
-            reach out to us!
-          </p>
-          <ul>
-            <li>Our e-mail mail@mail.com</li>
-            <li>Our Phone number: 232 33334322234</li>
-            <li>Our address: 127.0.0.1</li>
-          </ul>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
-      <p>Copyright</p>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="modules/index.css" rel="stylesheet">
+  <title>Awesome Books</title>
+</head>
+<body>
+  <header class="header">
+    <a href="#">Awesome Books</a>
+    <nav class="nav">
+        <a class="list-nav" id="list-nav">List</a>
+        <a class="add-nav" id="add-nav">Add new</a>
+        <a class="contact-nav" id="contact-nav">Contact</a>
+    </nav>
+</header>
+<p id="date"></p>
+<section class="books" id="books">
+    <h1>Awesome Books</h1>
+        <ul class="list">
+        </ul>  
+</section>
+<section class="add-books" id="add-books">
+    <h2>Add a new book</h2>
+    <form class="form">
+        <input type="text" id="title" class="title" placeholder="Title">
+        <br>
+        <input type="text" id="author" class="author" placeholder="Author">
+        <br>
+        <button type="button" id="btn-add-id" class="btn-add">Add</button>
+    </form>
+</section>
+<section class="contact" id="contact">
+<h2>Contact information</h2>
+<p class="contact-p">Do have any questions or you just want to say "Hello"?<br>
+You can reach out to us!</p>
+<ul class="contact-ul">
+    <li>Our e-mail: mail@mail.com</li>
+    <li>Our phone number: 0043586534422</li>
+    <li>Our address: Streetname 22, 84503 City, Country</li>
+</ul>
+</section>
+    <footer>
+        <p>Copyright</p>
     </footer>
-    <script type="module" src="./modules/index.js"></script>
-    <script type="module" src="./modules/luxon.js"></script>
-  </body>
+  <script type="module" src="index.js"></script>
+</body>
 </html>
