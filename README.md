@@ -20,7 +20,7 @@
 
 👤 **Author1**
 
-- GitHub: [@gitibrahim777764](https://https://github.com/ibrahim777764)
+- GitHub: [@https://github.com/ibrahim777764](https://https://github.com/ibrahim777764)
 
 
 # Get Started
