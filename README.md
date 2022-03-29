@@ -20,7 +20,7 @@
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://https://github.com/ibrahim777764)
+- GitHub: [@gitibrahim777764](https://https://github.com/ibrahim777764)
 
 
 # Get Started
@@ -49,4 +49,4 @@ Microverse Community
 
 ## 📝 License
 
-This project is [MIT.MD](LICENSE) licensed.
+This project is [MIT](LICENSE) licensed.
