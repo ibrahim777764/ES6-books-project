@@ -32,9 +32,9 @@ function addBook() {
   const author = authorInput.value;
   if (title !== '' && author !== '') {
     booksBinding.add(title, author);
-    msg.style.display = "block";
+    msg.style.display = 'block';
     setTimeout(() => {
-      msg.style.display = "none";
+      msg.style.display = 'none';
     }, 2000);
     addForm.reset();
   }
