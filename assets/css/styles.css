@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: rgb(73, 126, 206);
 }
 
 ul {
@@ -24,7 +25,7 @@ li {
 }
 
 .list_present li:nth-child(odd) {
-  background: #d3d3d3;
+  background: #9bb1ca;
 }
 
 .list_present {
