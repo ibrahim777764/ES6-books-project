@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(73, 126, 206);
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  padding: 5px;
+  font-size: 17px;
+}
+
+.nav-bar ul li {
+  margin: 2px;
+}
+
+.list_present li:nth-child(odd) {
+  background: #9bb1ca;
+}
+
+.list_present {
+  max-height: 500px;
+  width: 800px;
+  overflow-x: scroll;
+  border: solid;
+  margin: 0 auto;
+}
+
+.removeBook {
+  margin-right: 5px;
+  float: right;
+  height: 25px;
+  box-shadow: 5px 5px;
+}
+
+.divider {
+  width: 200px;
+  border: solid;
+  margin: 30px auto;
+}
+
+.addBookForm {
+  text-align: center;
+}
+
+.addBookForm input[type=text] {
+  width: 100%;
+  border: solid 2px;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.addBookForm ul {
+  margin: 0 auto;
+}
+
+.addBookForm input[type=button] {
+  width: 50px;
+  box-shadow: 5px 5px;
+  margin-right: 0;
+  float: right;
+}
+
+.wrapText {
+  width: 400px;
+  word-break: break-all;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+footer {
+  border: solid 2px black;
+  padding: 10px;
+  position: relative;
+}
+
+.wrapper {
+  border: solid 2px black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav-bar ul li:nth-child(2) {
+  border-right: solid 2px black;
+}
+
+.nav-bar ul li:nth-child(3) {
+  border-right: solid 2px black;
+}
+
+.appname {
+  flex: 5;
+}
+
+.todaysDate {
+  text-align: right;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.contactSection {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.contactSection,
+.addBookSection {
+  display: none;
+}
+
+.addBookSection {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.msg {
+  color: green;
+  display: none;
+  transition: 2s;
+}
