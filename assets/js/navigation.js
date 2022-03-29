@@ -19,21 +19,21 @@ function manipulateDom(elemArrayParam, elemToShow, linkClicked) {
 
 listLink.addEventListener('click', () => {
   const elemArray = document.querySelectorAll(
-    '.addBookSection, .contactSection'
+    '.addBookSection, .contactSection',
   );
   manipulateDom(elemArray, listSection, listLink);
 });
 
 addLink.addEventListener('click', () => {
   const elemArray = document.querySelectorAll(
-    '.bookListSection, .contactSection'
+    '.bookListSection, .contactSection',
   );
   manipulateDom(elemArray, addSection, addLink);
 });
 
 contactLink.addEventListener('click', () => {
   const elemArray = document.querySelectorAll(
-    '.bookListSection, .addBookSection'
+    '.bookListSection, .addBookSection',
   );
   manipulateDom(elemArray, contactSection, contactLink);
 });
