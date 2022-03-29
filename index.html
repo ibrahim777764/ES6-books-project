@@ -1,50 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="modules/index.css" rel="stylesheet">
-  <title>Awesome Books</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Awesome books - Navigation</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+
 <body>
-  <header class="header">
-    <a href="#">Awesome Books</a>
-    <nav class="nav">
-        <a class="list-nav" id="list-nav">List</a>
-        <a class="add-nav" id="add-nav">Add new</a>
-        <a class="contact-nav" id="contact-nav">Contact</a>
-    </nav>
-</header>
-<p id="date"></p>
-<section class="books" id="books">
-    <h1>Awesome Books</h1>
-        <ul class="list">
-        </ul>  
-</section>
-<section class="add-books" id="add-books">
-    <h2>Add a new book</h2>
-    <form class="form">
-        <input type="text" id="title" class="title" placeholder="Title">
-        <br>
-        <input type="text" id="author" class="author" placeholder="Author">
-        <br>
-        <button type="button" id="btn-add-id" class="btn-add">Add</button>
-    </form>
-</section>
-<section class="contact" id="contact">
-<h2>Contact information</h2>
-<p class="contact-p">Do have any questions or you just want to say "Hello"?<br>
-You can reach out to us!</p>
-<ul class="contact-ul">
-    <li>Our e-mail: mail@mail.com</li>
-    <li>Our phone number: 0043586534422</li>
-    <li>Our address: Streetname 22, 84503 City, Country</li>
-</ul>
-</section>
-    <footer>
-        <p>Copyright</p>
-    </footer>
-  <script type="module" src="index.js"></script>
+    <header>
+        <div class="wrapper">
+            <nav class="nav-bar">
+                <ul>
+                    <li class="appname"><a href="index.html">Awesome Books</a></li>
+                    <li><a href="#list" class="list">List</a></li>
+                    <li><a href="#add" class="add">Add New</a></li>
+                    <li><a href="#contact" class="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="todaysDate">
+            <!--date filled with javascript-->
+        </div>
+    </header>
+    <div class="container">
+        <section class="bookListSection">
+            <h1>All awesome Books</h1>
+            <ul class="list_present">
+                <li>
+                    <h3>No books available yet!</h3>
+                </li>
+            </ul>
+        </section>
+        <section class="addBookSection">
+            <form class="addBookForm">
+                <h2>Add a new book</h2>
+                <ul>
+                    <li>
+                        <input type="text" id="book_title" placeholder="Title" />
+                    </li>
+                    <li>
+                        <input type="text" id="book_author" placeholder="Author" />
+                    </li>
+                    <li>
+                        <input type="button" value="Add" id="add_book" />
+                    </li>
+                </ul>
+                <p class="msg">Book Added Successfully, click <a href="/">List</a> to view</p>
+            </form>
+        </section>
+        <section class="contactSection">
+            <h2>Contact Information</h2>
+            <p>Do have any questions or you just want to say "Hello"? <br />
+                You can reach out to us!
+            </p>
+            <ul>
+                <li>Our e-mail: mail@mail.com</li>
+                <li>Our phone number: 0043586534422</li>
+                <li>Our address: Streetname 22, 84503 City, Country</li>
+            </ul>
+        </section>
+
+        <footer id="footer">
+            Copyright .....
+        </footer>
+    </div>
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/hardworker.js"></script>
+    <script src="assets/js/date.js"></script>
+    <script src="assets/js/navigation.js"></script>
 </body>
+
 </html>
