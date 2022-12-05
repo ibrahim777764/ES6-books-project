@@ -1,5 +1,3 @@
-/* eslint-disable no-undef */
-/* eslint-disable no-unused-vars */
 class Books {
   constructor(element, storedItems) {
     this.showBooksElement = element;
