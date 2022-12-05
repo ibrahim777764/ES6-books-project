@@ -1,5 +1,3 @@
-/* eslint-disable no-undef */
-/* eslint-disable no-unused-vars */
 const removeBtn = document.querySelectorAll('.removeBook');
 const titleInput = document.querySelector('#book_title');
 const authorInput = document.querySelector('#book_author');
