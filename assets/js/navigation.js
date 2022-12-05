@@ -1,5 +1,3 @@
-/* eslint-disable no-undef */
-/* eslint-disable no-unused-vars */
 function setAllLinksColorBlack() {
   const getAllLinks = document.querySelectorAll('.nav-bar ul a');
   getAllLinks.forEach((link) => {
